@@ -197,7 +197,7 @@ body.finish:before {
 
 #last, #last .section {
   background-image    : url('../images/mobile_sections/sec_helper.jpg');
-  height              : 100px;
+  height              : 60px;
   background-position : center bottom;
   margin-bottom       : -1px;
 }
