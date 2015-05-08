@@ -209,6 +209,50 @@ body.finish:before {
   margin-bottom       : -1px;
 }
 
+#not-found, #not-found .section {
+  background-image    : url('../images/404_mobile.jpg');
+  background-position : center top;
+  background-repeat   : no-repeat;
+  height              : 718px;
+  margin              : 150px auto 300px;
+}
+
+#server-error, #server-error .section {
+  background-image    : url('../images/500_mobile.jpg');
+  background-position : center top;
+  background-repeat   : no-repeat;
+  height              : 718px;
+  margin              : 150px auto 300px;
+}
+
+.other-page #last, .other-page #last .section {
+  background-image    : url('../images/500.jpg');
+  background-position : center bottom;
+  background-repeat   : no-repeat;
+  height              : 100px;
+  display             : block;
+}
+
+#server-error .read-more,
+#not-found .read-more {
+  bottom : 30px;
+  right  : 90px;
+}
+
+.other-page #last {
+  position : fixed;
+  left     : 0;
+  right    : 0;
+  bottom   : 100px;
+}
+
+.other-page #footer {
+  position : fixed;
+  bottom   : 0;
+  left     : 0;
+  right    : 0;
+}
+
 #download h2 {
   margin-left : 30px;
 }

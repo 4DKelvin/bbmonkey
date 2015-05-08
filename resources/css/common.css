@@ -47,6 +47,14 @@ body {
   height     : 160px;
 }
 
+.other-page {
+  background : #6CBB5A;
+}
+
+.other-page #last {
+  display : none;
+}
+
 #nav .menu {
   display : none;
 }

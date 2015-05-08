@@ -218,6 +218,40 @@
   height              : 400px;
 }
 
+#not-found, #not-found .section {
+  background-image    : url('../images/404.jpg');
+  background-position : center;
+  background-repeat   : no-repeat;
+  height              : 930px;
+}
+
+#server-error, #server-error .section {
+  background-image    : url('../images/500.jpg');
+  background-position : center;
+  background-repeat   : no-repeat;
+  height              : 930px;
+}
+
+#server-error .read-more,
+#not-found .read-more {
+  text-indent   : -9999px;
+  display       : block;
+  position      : absolute;
+  width         : 152px;
+  height        : 45px;
+  z-index       : 100;
+  bottom        : 165px;
+  right         : 268px;
+  border-radius : 50px;
+}
+
+
+#server-error .read-more:hover,
+#not-found .read-more:hover {
+  background : white;
+  opacity    : 0.5;
+}
+
 #last, #last .section {
   background-image    : url('../images/sections/sec_helper.jpg');
   background-position : center bottom;
