@@ -5,7 +5,6 @@ $(window).on('load', function (e) {
 
 $(document).ready(function () {
   "use strict";
-  alert($(window).width());
   var targetWith = 640,
       scale = $(window).width() / targetWith;
   if (scale !== 1) {
