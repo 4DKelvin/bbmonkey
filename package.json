@@ -1,0 +1,11 @@
+{
+  "name": "bbmonkey",
+  "version": "0.0.0",
+  "description": "贝贝猴官网",
+  "main": "server.js",
+  "scripts": {
+    "start": "nodemon server.js"
+  },
+  "author": "Kelvin",
+  "license": "ISC"
+}

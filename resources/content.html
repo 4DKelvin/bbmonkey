@@ -1,0 +1,101 @@
+<!doctype html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport"
+          content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no,target-densitydpi=high-dpi, minimal-ui">
+    <title>贝贝猴</title>
+    <link rel="stylesheet" type="text/css" href="../css/normalize.css"/>
+    <link rel="stylesheet" type="text/css" href="../css/common.css"/>
+    <link rel="stylesheet" type="text/css" href="../css/features.css"/>
+    <link rel="stylesheet" type="text/css" media="screen and (max-device-width: 640px)" href="../css/respond.css"/>
+</head>
+<body>
+<div class="container">
+    <div id="nav">
+        <a class="menu" href="javascript:void(0);">菜单</a>
+        <ul class="section">
+            <li id="logo"><img alt="贝贝猴" src="../images/logo.png"/></li>
+            <li><a href="parents.html">贝贝家长会</a></li>
+            <li><a href="help.html">帮助</a></li>
+            <li><a href="download.html">下载</a></li>
+            <li class="active"><a href="content.html">内容</a></li>
+            <li><a href="index.html">首页</a></li>
+        </ul>
+    </div>
+    <div id="banner_content">
+        <div class="section"><a href="#" class="download">点击下载体验版</a></div>
+    </div>
+    <div id="mode">
+        <div class="section">
+            <p>特色教学模式</p>
+        </div>
+    </div>
+    <div id="form">
+        <div class="section"></div>
+    </div>
+    <div id="content_1">
+        <div class="section"></div>
+    </div>
+    <div id="content_2">
+        <div class="section"></div>
+    </div>
+    <div id="content_3">
+        <div class="section"></div>
+    </div>
+    <div id="content_4">
+        <div class="section"></div>
+    </div>
+    <div id="content_5">
+        <div class="section"></div>
+    </div>
+    <div id="content_6">
+        <div class="section"></div>
+    </div>
+    <div id="content_7">
+        <div class="section"></div>
+    </div>
+    <div id="content_8">
+        <div class="section"></div>
+    </div>
+    <div id="content_9">
+        <div class="section"></div>
+    </div>
+    <div id="footer">
+        <div class="section">
+            <div class="sitemap"><a href="aboutus.html">关于我们</a> <a href="contact.html">联系客服</a> <a
+                    href="faq.html">常见问题</a></div>
+            <p>Copyright ©2015 All rights reserved 贝贝猴 版权所有 <a href="javasciprt:void(0);">粤ICP备 15005794 号</a></p>
+        </div>
+    </div>
+</div>
+<div id="navbar">
+    <ul>
+        <li><a href="#content_1">情商小达人</a></li>
+        <li><a href="#content_2">习惯小达人</a></li>
+        <li><a href="#content_3">最强大脑</a></li>
+        <li><a href="#content_4">世界真奇妙</a></li>
+        <li><a href="#content_5">数学小超人</a></li>
+        <li><a href="#content_6">汉字小天才</a></li>
+        <li><a href="#content_7">国际小公民</a></li>
+        <li><a href="#content_8">森林大挑战</a></li>
+        <li><a href="#content_9">兴趣小课堂</a></li>
+    </ul>
+</div>
+<script src="../js/jquery.js"></script>
+<script src="../js/mobile.support.js"></script>
+<script type="text/javascript">
+    $(window).scroll(function () {
+        var top = Number($(window).scrollTop()),
+            area_begin = 1500,
+            section_size = 700,
+            index = Math.ceil((top - area_begin) / section_size)
+        $('#navbar')[top > area_begin ? 'show' : 'hide']();
+        $('#navbar li')
+                .removeClass('active')
+                .eq(index - 1)
+                .addClass('active');
+    });
+</script>
+</body>
+</html>

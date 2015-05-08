@@ -1,0 +1,191 @@
+/* CSS Document */
+#register .section {
+  text-align : left;
+}
+
+#register h1 {
+  font-size   : 170%;
+  color       : #276A00;
+  font-weight : normal;
+  margin      : 15px 50px;
+}
+
+#register .register-form {
+  margin  : 10px 50px;
+  padding : 30px 150px;
+  border  : 1px solid #6FB759;
+  display : none;
+}
+
+#register .register-form.result {
+  padding             : 30px;
+  text-align          : center;
+  background          : url(../images/result.jpg);
+  background-position : center;
+  background-repeat   : no-repeat;
+  width               : 900px;
+  height              : 1400px;
+  margin              : 0 auto;
+}
+
+#register .register-form h2 {
+  font-size   : 220%;
+  font-weight : normal;
+  text-align  : center;
+  color       : #498637;
+  margin      : 30px;
+}
+
+#register .register-form p {
+  font-size     : 90%;
+  text-indent   : 2em;
+  line-height   : 170%;
+  margin-bottom : 5px;
+}
+
+#register .btn {
+  display               : inline-block;
+  border-radius         : 50px;
+  -webkit-border-radius : 50px;
+  -moz-border-radius    : 50px;
+  box-shadow            : inset 0 0 0 1px white;
+  border-width          : 5px;
+  border-style          : solid;
+  color                 : white;
+  text-align            : center;
+  text-decoration       : none;
+}
+
+#register .btn:hover {
+  opacity : 0.5;
+}
+
+#register .operation {
+  text-align : center;
+}
+
+#register .btn.btn-success {
+  background   : #F39800;
+  border-color : #F39800;
+}
+
+#register .btn.btn-failure {
+  background   : #86CF6F;
+  border-color : #86CF6F;
+}
+
+#register .btn.btn-active {
+  padding      : 8px 23px;
+  font-size    : 170%;
+  line-height  : 100%;
+  background   : #F39800;
+  border-color : #F39800;
+  box-shadow   : none;
+}
+
+#register .btn.btn-default {
+  padding      : 12px 27px;
+  font-size    : 170%;
+  line-height  : 100%;
+  background   : white;
+  border-color : #F39800;
+  border-width : 1px;
+  box-shadow   : none;
+  color        : #F39800;
+}
+
+#register .btn-success, #register .btn-failure {
+  padding     : 8px 23px;
+  font-size   : 170%;
+  line-height : 100%;
+  margin      : 55px 10px 15px;
+}
+
+#register .step {
+  text-align : center;
+  padding    : 20px;
+}
+
+#register .step i {
+  display          : inline-block;
+  background-image : url('../images/split.jpg');
+  width            : 68px;
+  height           : 27px;
+}
+
+#register table h3 {
+  font-size   : 220%;
+  line-height : 200%;
+  color       : #498637;
+  padding-top : 20px;
+  margin      : 0 0 10px -10px;
+  font-weight : normal;
+}
+
+#register table label {
+  font-size   : 120%;
+  white-space : nowrap;
+}
+
+#register table input {
+  border     : 1px solid black;
+  padding    : 10px 15px;
+  display    : inline-block;
+  box-sizing : border-box;
+  margin     : 6px 0;
+  width      : 100%;
+}
+
+#register table p {
+  font-size   : 80% !important;
+  text-indent : 0 !important;
+  color       : #A0A0A0;
+}
+
+#register table input#gender {
+  width : 50px;
+}
+
+#register .code {
+  display         : block;
+  width           : 70px;
+  padding         : 6px;
+  background      : #6FB759;
+  font-size       : 90%;
+  text-decoration : none;
+  line-height     : 110%;
+  text-align      : center;
+  margin          : 0 10px;
+  position        : relative;
+  top             : 1px;
+  color           : white;
+}
+
+#register .code.disabled {
+  background : #A7A7A7;
+}
+
+#register .code:hover {
+  opacity : 0.5;
+}
+
+#confirm td {
+  padding : 5px;
+}
+
+#confirm h3 {
+  line-height : 100% !important;
+}
+
+#confirm h5 {
+  font-size   : 110%;
+  font-weight : normal;
+  background  : #498638;
+  color       : white;
+  padding     : 1px 10px;
+  margin-top  : 20px;
+}
+
+.price {
+  font-size : 150%;
+}

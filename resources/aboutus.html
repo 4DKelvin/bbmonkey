@@ -1,0 +1,101 @@
+<!doctype html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport"
+          content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no,target-densitydpi=high-dpi, minimal-ui">
+    <title>贝贝猴</title>
+    <link rel="stylesheet" type="text/css" href="../css/normalize.css"/>
+    <link rel="stylesheet" type="text/css" href="../css/common.css"/>
+    <link rel="stylesheet" type="text/css" href="../css/features.css"/>
+    <link rel="stylesheet" type="text/css" media="screen and (max-device-width: 640px)" href="../css/respond.css"/>
+</head>
+<body class="word">
+<div class="container">
+    <div id="nav">
+        <a class="menu" href="javascript:void(0);">菜单</a>
+        <ul class="section">
+            <li id="logo"><img alt="贝贝猴" src="../images/logo.png"/></li>
+            <li><a href="parents.html">贝贝家长会</a></li>
+            <li><a href="help.html">帮助</a></li>
+            <li><a href="download.html">下载</a></li>
+            <li><a href="content.html">内容</a></li>
+            <li><a href="index.html">首页</a></li>
+        </ul>
+    </div>
+    <div id="default_banner">
+        <div class="section"></div>
+    </div>
+    <div id="aboutus">
+        <div class="section">
+            <ul class="about-nav">
+                <li class="active"><a href="#a1">关于贝贝猴</a></li>
+                <li><a href="#a2">我们的愿景</a></li>
+                <li><a href="#a3">我们的理念</a></li>
+                <li><a href="#a4">我们的团队</a></li>
+                <li class="last"><a href="#a5">联系我们</a></li>
+            </ul>
+            <div class="about-content">
+                <h1 id="a1">关于贝贝猴</h1>
+
+                <p>贝贝猴，专为2—7岁儿童设计的寓教于玩的一体式幼儿教育解决方案。它是孩子们亲密的伙伴，陪着孩子们去探索、认知，培养积极的、向上的价值观，接受美的熏陶。</p>
+
+                <h1 id="a2">我们的愿景</h1>
+
+                <p>最专业、系统、科学，最受孩子家长欢迎的儿童品牌。</p>
+
+                <h1 id="a3">我们的理念</h1>
+
+                <p>玩出好孩子！</p>
+
+                <h1 id="a4">我们的团队</h1>
+
+                <p>Joinsun House，贝贝猴的开发中心，始终坚持“Stay hungry，Stay foolish”， 希望在儿童教育领域，和家长一同成长，和小朋友一起玩出好孩子。</p>
+
+                <h1 id="a5">联系我们</h1>
+
+                <p class="last">总机：020-84219850<br/>
+                    邮箱：<a href="mailto:service@bbmonkey.cn">service@bbmonkey.cn</a><br/>
+                    地址：广州市海珠区广州大道南703-705号桂田大厦11楼广州市掌芯计算机科技有限公司<br/>
+                    邮编：510310<br/>
+                    工作时间：周一至周五 9点- 18点</p>
+            </div>
+        </div>
+    </div>
+    <div id="last">
+        <div class="section"></div>
+    </div>
+    <div id="footer">
+        <div class="section">
+            <div class="sitemap"><a href="aboutus.html">关于我们</a> <a href="contact.html">联系客服</a> <a
+                    href="faq.html">常见问题</a></div>
+            <p>Copyright ©2015 All rights reserved 贝贝猴 版权所有 <a href="javasciprt:void(0);">粤ICP备 15005794 号</a></p>
+        </div>
+    </div>
+</div>
+<script src="../js/jquery.js"></script>
+<script src="../js/mobile.support.js"></script>
+<script type="text/javascript">
+    $(window).scroll(function () {
+        var top = Number($(window).scrollTop()),
+            area_begin = $(window).width() > 640 ? 600 : 160,
+            section_size = 100,
+            index = Math.ceil((top - area_begin) / section_size);
+        $('.about-nav')[top > area_begin ? 'addClass' : 'removeClass']('fixed');
+        /*$('.about-nav li')
+         .removeClass('active')
+         .eq(index -1)
+         .addClass('active');*/
+    });
+    $(document).on('click', '.about-nav a', function () {
+        $('.about-nav li').removeClass('active');
+        $(this).parent().addClass('active');
+    });
+    $(document).on('click', '.about-nav a', function () {
+        setTimeout(function () {
+            $(window).scrollTop($(window).scrollTop() - 110);
+        }, 100);
+    })
+</script>
+</body>
+</html>

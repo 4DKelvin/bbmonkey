@@ -1,0 +1,230 @@
+/* CSS Document */
+#banner, #banner .section {
+  background-image    : url('../images/sections/sec_banner.jpg');
+  background-position : center;
+  background-repeat   : no-repeat;
+  height              : 580px;
+}
+
+#banner a {
+  position    : absolute;
+  display     : block;
+  width       : 215px;
+  height      : 45px;
+  text-indent : -9999px;
+}
+
+#banner a:hover {
+  background            : white;
+  opacity               : 0.2;
+  border-radius         : 25px;
+  -moz-border-radius    : 25px;
+  -webkit-border-radius : 25px;
+}
+
+#banner a.download {
+  right  : 307px;
+  bottom : 78px;
+}
+
+#banner a.readmore {
+  bottom : 78px;
+  right  : 76px;
+}
+
+#text_solution, #text_solution .section {
+  background          : url(../images/sections/sec_text.jpg);
+  background-position : center;
+  background-repeat   : no-repeat;
+  height              : 200px;
+}
+
+#eyfs, #eyfs .section {
+  background          : url(../images/sections/sec_eyfs.jpg);
+  background-position : center;
+  background-repeat   : no-repeat;
+  height              : 600px;
+}
+
+#guide, #guide .section {
+  background          : url(../images/sections/sec_guide.jpg);
+  background-position : center;
+  background-repeat   : no-repeat;
+  height              : 600px;
+}
+
+#chart, #chart .section {
+  background          : url(../images/sections/sec_chart.jpg);
+  background-position : center;
+  background-repeat   : no-repeat;
+  height              : 1000px;
+}
+
+#course, #course .section {
+  background          : url(../images/sections/sec_course.jpg);
+  background-position : center;
+  background-repeat   : no-repeat;
+  height              : 700px;
+}
+
+#form, #form .section {
+  background          : url(../images/sections/sec_form.jpg);
+  background-position : center;
+  background-repeat   : no-repeat;
+  height              : 500px;
+}
+
+#default_banner, #default_banner .section {
+  background-image    : url('../images/sections/sec_banner_default.jpg');
+  background-position : center;
+  background-repeat   : no-repeat;
+  height              : 449px;
+}
+
+#banner_angle, #banner_angle .section {
+  background-image    : url('../images/sections/sec_banner_angle.jpg');
+  background-position : center;
+  background-repeat   : no-repeat;
+  height              : 580px;
+}
+
+#banner_content, #banner_content .section {
+  background-image    : url('../images/sections/sec_banner_content.jpg');
+  background-position : center;
+  background-repeat   : no-repeat;
+  height              : 580px;
+}
+
+#banner_parents, #banner_parents .section {
+  background-image    : url('../images/sections/sec_banner_parents.jpg');
+  background-position : center;
+  background-repeat   : no-repeat;
+  height              : 980px;
+}
+
+#banner_angle a {
+  position    : absolute;
+  display     : block;
+  width       : 215px;
+  height      : 60px;
+  text-indent : -9999px;
+  right       : 80px;
+  bottom      : 27px;
+}
+
+#banner_angle a:hover {
+  background            : white;
+  opacity               : 0.5;
+  border-radius         : 60px;
+  -moz-border-radius    : 60px;
+  -webkit-border-radius : 60px;
+}
+
+#angle, #angle .section {
+  background-image    : url('../images/sections/sec_angle.jpg');
+  background-position : center;
+  background-repeat   : no-repeat;
+  height              : 1200px;
+}
+
+#what, #what .section {
+  background-image    : url('../images/sections/sec_what.jpg');
+  background-position : center;
+  background-repeat   : no-repeat;
+  height              : 1200px;
+}
+
+#who, #who .section {
+  background-image    : url('../images/sections/sec_who.jpg');
+  background-position : center;
+  background-repeat   : no-repeat;
+  height              : 485px;
+}
+
+#banner_content a {
+  position    : absolute;
+  display     : block;
+  width       : 215px;
+  height      : 45px;
+  text-indent : -9999px;
+}
+
+#banner_content a:hover {
+  background            : white;
+  opacity               : 0.2;
+  border-radius         : 25px;
+  -moz-border-radius    : 25px;
+  -webkit-border-radius : 25px;
+}
+
+#banner_content a.download {
+  right  : 80px;
+  bottom : 40px;
+}
+
+#mode, #mode .section {
+  background-image    : url('../images/sections/sec_mode.jpg');
+  background-position : center;
+  background-repeat   : no-repeat;
+  height              : 700px;
+}
+
+#content_1, #content_1 .section, #content_2, #content_2 .section, #content_3, #content_3 .section, #content_4, #content_4 .section, #content_5, #content_5 .section, #content_6, #content_6 .section, #content_7, #content_7 .section, #content_8, #content_8 .section, #content_9, #content_9 .section {
+  background-position : center;
+  background-repeat   : no-repeat;
+  height              : 700px;
+}
+
+#content_1, #content_1 .section {
+  background-image : url('../images/sections/sec_content_1.jpg');
+}
+
+#content_2, #content_2 .section {
+  background-image : url('../images/sections/sec_content_2.jpg');
+}
+
+#content_3, #content_3 .section {
+  background-image : url('../images/sections/sec_content_3.jpg');
+}
+
+#content_4, #content_4 .section {
+  background-image : url('../images/sections/sec_content_4.jpg');
+}
+
+#content_5, #content_5 .section {
+  background-image : url('../images/sections/sec_content_5.jpg');
+}
+
+#content_6, #content_6 .section {
+  background-image : url('../images/sections/sec_content_6.jpg');
+}
+
+#content_7, #content_7 .section {
+  background-image : url('../images/sections/sec_content_7.jpg');
+}
+
+#content_8, #content_8 .section {
+  background-image : url('../images/sections/sec_content_8.jpg');
+}
+
+#content_9, #content_9 .section {
+  background-image : url('../images/sections/sec_content_9.jpg');
+}
+
+#helper, #helper .section {
+  background-image    : url('../images/sections/sec_helper.jpg');
+  background-position : center;
+  background-repeat   : no-repeat;
+  height              : 400px;
+}
+
+#last, #last .section {
+  background-image    : url('../images/sections/sec_helper.jpg');
+  background-position : center bottom;
+  background-repeat   : no-repeat;
+  height              : 145px;
+}
+
+.section > p {
+  display : none;
+}

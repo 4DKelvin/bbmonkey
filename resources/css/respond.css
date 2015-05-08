@@ -1,0 +1,315 @@
+body {
+  position  : relative;
+  max-width : 640px;
+}
+
+body:before {
+  content            : '';
+  opacity            : 1;
+  transition         : all 1s ease-out;
+  -webkit-transition : all 1s ease-out;
+  background         : url('../images/loading.gif') white no-repeat center;
+  z-index            : 999;
+  top                : -5px;
+  left               : -5px;
+  right              : -5px;
+  bottom             : -5px;
+  position           : fixed;
+}
+
+body.finish:before {
+  opacity : 0;
+  z-index : 0;
+}
+
+#nav.fixed {
+  position : fixed;
+  left     : 0;
+  right    : 0;
+  z-index  : 1;
+}
+
+#nav.collapse {
+  height   : 70px;
+  overflow : hidden;
+
+}
+
+#nav.collapse .section li {
+  opacity    : 0;
+  visibility : hidden;
+}
+
+#nav.collapse .section li.active {
+  opacity        : 1;
+  visibility     : visible;
+  position       : absolute;
+  height         : 70px;
+  line-height    : 70px;
+  font-size      : 130%;
+  letter-spacing : 5px;
+  padding        : 0 24px;
+  margin         : 0 45px;
+}
+
+#nav .menu {
+  display          : block;
+  background-image : url('../images/menu.gif');
+  height           : 29px;
+  width            : 37px;
+  position         : absolute;
+  right            : 20px;
+  top              : 20px;
+  z-index          : 2;
+  text-indent      : -9999px;
+}
+
+#logo {
+  padding : 0 !important;
+}
+
+#nav li {
+  padding : 0 5px;
+}
+
+.container .section {
+  width : 100%;
+}
+
+#sidebar, #navbar {
+  display : none !important;
+}
+
+#banner, #banner .section {
+  background-image : url('../images/mobile_sections/sec_banner.jpg');
+  height           : 674px;
+}
+
+#text_solution, #text_solution .section {
+  background : url(../images/mobile_sections/sec_text.jpg);
+  height     : 126px;
+}
+
+#eyfs, #eyfs .section {
+  background : url(../images/mobile_sections/sec_eyfs.jpg);
+  height     : 380px;
+}
+
+#guide, #guide .section {
+  background : url(../images/mobile_sections/sec_guide.jpg);
+  height     : 380px;
+}
+
+#chart, #chart .section {
+  background : url(../images/mobile_sections/sec_chart.jpg);
+  height     : 917px;
+}
+
+#course, #course .section {
+  background : url(../images/mobile_sections/sec_course.jpg);
+  height     : 1219px;
+}
+
+#form, #form .section {
+  background : url(../images/mobile_sections/sec_form.jpg);
+  height     : 758px;
+}
+
+#default_banner, #default_banner .section {
+  background-image : url('../images/mobile_sections/sec_banner_default.jpg');
+  height           : 276px;
+}
+
+#banner_angle, #banner_angle .section {
+  background-image : url('../images/mobile_sections/sec_banner_angle.jpg');
+  height           : 580px;
+}
+
+#banner_content, #banner_content .section {
+  background-image : url('../images/mobile_sections/sec_banner_content.jpg');
+  height           : 674px;
+}
+
+#banner_parents, #banner_parents .section {
+  background-image : url('../images/mobile_sections/sec_banner_parents.jpg');
+  height           : 1068px;
+}
+
+#angle, #angle .section {
+  background-image : url('../images/mobile_sections/sec_angle.jpg');
+  height           : 1307px;
+}
+
+#what, #what .section {
+  background-image : url('../images/mobile_sections/sec_what.jpg');
+  height           : 1200px;
+}
+
+#who, #who .section {
+  background-image : url('../images/mobile_sections/sec_who.jpg');
+  height           : 482px;
+}
+
+#mode, #mode .section {
+  background-image : url('../images/mobile_sections/sec_mode.jpg');
+  height           : 937px;
+}
+
+#content_1, #content_1 .section, #content_2, #content_2 .section, #content_3, #content_3 .section, #content_4, #content_4 .section, #content_5, #content_5 .section, #content_6, #content_6 .section, #content_7, #content_7 .section, #content_8, #content_8 .section, #content_9, #content_9 .section {
+  height : 408px;
+}
+
+#content_1, #content_1 .section {
+  background-image : url('../images/mobile_sections/sec_content_1.jpg');
+}
+
+#content_2, #content_2 .section {
+  background-image : url('../images/mobile_sections/sec_content_2.jpg');
+}
+
+#content_3, #content_3 .section {
+  background-image : url('../images/mobile_sections/sec_content_3.jpg');
+}
+
+#content_4, #content_4 .section {
+  background-image : url('../images/mobile_sections/sec_content_4.jpg');
+}
+
+#content_5, #content_5 .section {
+  background-image : url('../images/mobile_sections/sec_content_5.jpg');
+}
+
+#content_6, #content_6 .section {
+  background-image : url('../images/mobile_sections/sec_content_6.jpg');
+}
+
+#content_7, #content_7 .section {
+  background-image : url('../images/mobile_sections/sec_content_7.jpg');
+}
+
+#content_8, #content_8 .section {
+  background-image : url('../images/mobile_sections/sec_content_8.jpg');
+}
+
+#content_9, #content_9 .section {
+  background-image : url('../images/mobile_sections/sec_content_9.jpg');
+}
+
+#last, #last .section {
+  background-image    : url('../images/sections/sec_helper.jpg');
+  height              : 100px;
+  background-position : center -300px;
+  margin-bottom: -1px;
+}
+
+#helper, #helper .section {
+  margin-top          : 50px;
+  height              : 100px;
+  background-position : center -300px;
+  margin-bottom: -1px;
+}
+
+#download {
+  margin-top : 50px;
+}
+
+#download h2 {
+  margin-left : 30px;
+}
+
+#register .register-form {
+  padding : 30px;
+  margin  : 0px;
+  border  : none;
+}
+
+#register .step i {
+  display             : inline-block;
+  background-image    : url('../images/split.jpg');
+  width               : 27px;
+  height              : 27px;
+  background-position : right center;
+  margin-left         : 5px;
+}
+
+#register .btn.btn-active {
+  padding : 8px 5px;
+}
+
+#register .btn.btn-default {
+  padding : 12px 10px;
+}
+
+#register table img {
+  width  : 100%;
+  height : auto;
+}
+
+#register .register-form.result {
+  padding    : 0px;
+  margin     : 15px auto;
+  background : url(../images/result_mobile.jpg);
+  height     : 1358px;
+  width      : 610px;
+}
+
+#register table h3 {
+  margin-left : 0;
+}
+
+#banner_angle a {
+  right  : 35px;
+  bottom : 80px;
+}
+
+#banner a.download {
+  right  : 46px;
+  bottom : 88px;
+}
+
+#banner a.readmore {
+  bottom : 30px;
+  right  : 46px;
+}
+
+#banner_content a.download {
+  right  : 60px;
+  bottom : 30px;
+}
+
+#aboutus .section {
+  -webkit-box-shadow : none;
+  -moz-box-shadow    : none;
+  box-shadow         : none;
+}
+
+#aboutus .about-content {
+  margin-left  : 230px;
+  margin-right : 30px;
+}
+
+#aboutus .about-nav {
+  width : 180px;
+}
+
+#aboutus .about-nav.fixed {
+  position: absolute;
+}
+
+.content-box {
+  display : block;
+  margin  : 30px;
+}
+
+.content-box.download-box {
+  margin : 30px auto;
+}
+
+#question {
+  margin-left  : 50px;
+  margin-right : 40px;
+}
+
+#question li {
+  padding-left : 10px;
+}
