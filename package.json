@@ -4,7 +4,8 @@
   "description": "贝贝猴官网",
   "main": "server.js",
   "scripts": {
-    "start": "nodemon server.js"
+    "start": "nodemon server.js",
+    "release": "node release.js"
   },
   "author": "Kelvin",
   "license": "ISC",
