@@ -196,21 +196,17 @@ body.finish:before {
 }
 
 #last, #last .section {
-  background-image    : url('../images/sections/sec_helper.jpg');
+  background-image    : url('../images/mobile_sections/sec_helper.jpg');
   height              : 100px;
-  background-position : center -300px;
-  margin-bottom: -1px;
+  background-position : center bottom;
+  margin-bottom       : -1px;
 }
 
 #helper, #helper .section {
-  margin-top          : 50px;
-  height              : 100px;
-  background-position : center -300px;
-  margin-bottom: -1px;
-}
-
-#download {
-  margin-top : 50px;
+  background-image    : url('../images/mobile_sections/sec_helper.jpg');
+  height              : 255px;
+  background-position : center bottom;
+  margin-bottom       : -1px;
 }
 
 #download h2 {
@@ -293,16 +289,49 @@ body.finish:before {
 }
 
 #aboutus .about-nav.fixed {
-  position: absolute;
+  position : absolute;
 }
 
 .content-box {
+  width  : 40%;
+  margin : 30px;
+}
+
+.content-box.fir {
+  margin-right : 15px;
+}
+
+.content-box.sec {
+  margin-left : 15px;
+}
+
+.content-box.lst {
   display : block;
-  margin  : 30px;
+  width   : auto;
+  margin  : 10px 35px 30px;
+}
+
+.content-box img {
+  margin : 10px 0 0 0;
 }
 
 .content-box.download-box {
-  margin : 30px auto;
+  width  : 40%;
+  margin : 30px 15px;
+}
+
+.content-box.download-box img {
+  display : block;
+  margin  : 10px auto;
+  float   : none;
+}
+
+.download-box p, .download-box a {
+  float : none;
+}
+
+.download-box a {
+  margin : 15px auto;
 }
 
 #question {
