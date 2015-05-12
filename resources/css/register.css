@@ -1,4 +1,11 @@
 /* CSS Document */
+#register fieldset {
+  border     : 1px solid #86CF6F;
+  padding    : 2em;
+  max-height : 650px;
+  overflow   : auto;
+}
+
 #register .section {
   text-align : left;
 }

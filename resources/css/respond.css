@@ -386,3 +386,7 @@ body.finish:before {
 #question li {
   padding-left : 10px;
 }
+
+#register fieldset {
+  max-height : 450px;
+}
